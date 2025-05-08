@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parziale PPM</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts (Google Fonts) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Icônes (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="Logo/Logof.jpg" type="image/png">
+</head>
+
+<body>
+    <!-- Barre supérieure (promo/alerte) -->
+    <div class="top-menu">
+        <div class="menu-container">
+            <div class="left-item">
+                <a href="#"><i class="fas fa-bars"></i> Menu</a>
+            </div>
+            <div class="center-items">
+                <ul>
+                    <li><a href="#"><i class="fas fa-tv"></i> TV & Vidéos</a></li>
+                    <li><a href="#"><i class="fas fa-headphones"></i> Audio</a></li>
+                    <li><a href="#"><i class="fas fa-globe"></i> Le Figaro in English</a></li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-envelope"></i> Newsletters <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-column">
+                                    <h4>Actualités</h4>
+                                    <ul>
+                                        <li><a href="#">Les titres du jour</a></li>
+                                        <li><a href="#">L'alerte info</a></li>
+                                        <li><a href="#">Faits divers</a></li>
+                                        <li><a href="#">Santé</a></li>
+                                        <li><a href="#">La quotidienne Sport</a></li>
+                                        <li><a href="#">La sélection du Figaro Live</a></li>
+                                        <li><a href="#">Le Figaro Étudiant</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-column">
+                                    <h4>Actu locale</h4>
+                                    <ul>
+                                        <li><a href="#">La semaine du Figaro Bordeaux</a></li>
+                                        <li><a href="#">La semaine du Figaro Lyon</a></li>
+                                        <li><a href="#">La semaine du Figaro Marseille</a></li>
+                                        <li><a href="#">La semaine du Figaro Nantes</a></li>
+                                        <li><a href="#">La semaine du Figaro Nice</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-map-marker-alt"></i> Actu Locale <i
+                                class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content cities-dropdown">
+                            <ul>
+                                <li><a href="#">Bordeaux</a></li>
+                                <li><a href="#">Lyon</a></li>
+                                <li><a href="#">Marseille</a></li>
+                                <li><a href="#">Nantes</a></li>
+                                <li><a href="#">Nice</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-item">
+                <a href="#"><i class="fas fa-user"></i> Se connecter</a>
+            </div>
+        </div>
+    </div>
+    <!-- Header avec recherche et menu étendu -->
+    <header class="header-top">
+        <div class="header-top-row">
+            <!-- Nouveau bloc gauche -->
+            <div class="header-left">
+                <img src="images/Lire_le_journal.png" alt="Journal" class="journal-icon">
+                <span class="journal-text">Lire le Journal</span>
+            </div>
+            <!-- Logo central (existant) -->
+            <div class="logo">
+                <img src="Logo/Logof.png" alt="Logo">
+                <p class="slogan">"Le journalisme, c’est publier ce que d’autres ne veulent pas voir publié.<br />le
+                    reste
+                    n’est que relations publiques." — George Orwel
+                </p>
+            </div>
+            <!-- Nouveau bouton droit -->
+            <div class="header-right">
+                <button class="subscribe-btn">
+                    Abonnez-vous.<br>
+                    <span class="price">0.99€ le premier mois</span>
+                </button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li class="actuplus"><a href="#"> Actualité</a></li>
+                <span class="bar_vertical"> </span>
+                <li><a href="#"> Politique</a></li>
+                <li><a href="#"> International</a></li>
+                <li><a href="#"> Économie</a></li>
+                <li><a href="#"> Société</a></li>
+                <li><a href="#"> Vox</a></li>
+                <li><a href="#"> Sports</a></li>
+                <li><a href="#"> Culture</a></li>
+                <li><a href="#"> Madame</a></li>
+                <li><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bar horizontale -->
+    <div class="ad-banner">
+        <span></span>
+    </div>
+    <div class="Main-Content">
+        <!-- Colonne gauche -->
+        <div class="left-column">
+            <img class="radio" src="images/image_radio.png" alt="Culture">
+            <article class="art1">
+                <a href="#">
+                    <h3>Festival de Cannes : les films à ne pas manquer</h3>
+                </a>
+                <img src="images/Image 10.jpg" alt="Culture">
+                <div class="card-content">
+                    <p class="excerpt">Notre sélection des œuvres les plus attendues...</p>
+                    <div class="meta">
+                        <span><i class="far fa-clock"></i> Hier</span>
+                        <span><i class="far fa-comment"></i> 18 commentaires</span>
+                    </div>
+                </div>
+            </article>
+            <article class="art2">
+                <h3>Les nouvelles innovations IA en 2024</h3>
+                <img src="images/Image 4.webp" alt="Technologie">
+                <div class="card-content">
+                    <p class="excerpt">Comment l'IA change notre quotidien...</p>
+                    <div class="meta">
+                        <span><i class="far fa-clock"></i> Il y a 5h</span>
+                        <span><i class="far fa-comment"></i> 42 commentaires</span>
+                    </div>
+                </div>
+            </article>
+            <article class="art3">
+                <h3>La place du sport dans notre quotidien</h3>
+                <img src="images/Image 2.webp" alt="Sport">
+                <div class="card-content">
+                    <p class="excerpt">Comment le sport change t'il notre quotidien...</p>
+                    <div class="meta">
+                        <span><i class="far fa-clock"></i> Il y a 5h</span>
+                        <span><i class="far fa-comment"></i> 42 commentaires</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <!-- Colonne centrale -->
+        <div class="center-column">
+            <article class="main-ar1">
+                <!-- Section Hero (Slider) -->
+                <section class="hero-slider">
+                    <div class="slide active">
+                        <a href="#">
+                            <h1><span class="category"><i class="fa fa-square" aria-hidden="true"></i> </span>
+                                Titre de l'article principal avec un sujet impactant
+                                Un résumé accrocheur pour inciter à la lecture...</h1>
+                        </a>
+                        <img src="images/Image 3.jpg" alt="Actualité principale">
+                    </div>
+                </section>
+            </article>
+            <article class="main-ar2">
+                <a href="#">
+                    <p></p>
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i><span> </span>Titre de l'article
+                        principal
+                        avec un
+                        sujet impactant</h2>
+                    Un résumé accrocheur pour inciter à la lecture...<br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </a>
+            </article>
+            <article class="main-ar3">
+                <a href="#">
+                    <p></p>
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i><span> </span>Titre de l'article
+                        principal
+                        avec un
+                        sujet impactant</h2>
+                    Un résumé accrocheur pour inciter à la lecture...<br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </a>
+            </article>
+            <article class="main-ar4">
+                <a href="#">
+                    <p></p>
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i><span> </span>Titre de l'article
+                        principal
+                        avec un
+                        sujet impactant</h2>
+                    Un résumé accrocheur pour inciter à la lecture...<br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </a>
+            </article>
+            <article class="main-ar5">
+                <section class="hero-slider">
+                    <div class="slide active">
+                        <h2>Titre de l'article principal avec un sujet impactant</h2>
+                        <img src="images/Image 6.webp" alt="Actualité Ternaire">
+                        <div class="slide-content">
+                            <p>Un résumé accrocheur pour inciter à la lecture...</p>
+                            <a href="#" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="main-ar6">
+                <section class="hero-slider">
+                    <div class="slide active">
+                        <h2>Titre de l'article principal avec un sujet impactant</h2>
+                        <img src="images/Image 8.jpg" alt="Actualité plus">
+                        <div class="slide-content">
+                            <p>Un résumé accrocheur pour inciter à la lecture...</p>
+                            <a href="#" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="main-ar7">
+                <section class="hero-slider">
+                    <div class="slide active">
+                        <h2>Titre de l'article principal avec un sujet impactant</h2>
+                        <img src="images/Image 1.webp" alt="Actualité en continue">
+                        <div class="slide-content">
+                            <p>Un résumé accrocheur pour inciter à la lecture...</p>
+                            <a href="#" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="main-ar8">
+                <section class="hero-slider">
+                    <div class="slide active">
+                        <h2>Titre de l'article principal avec un sujet impactant</h2>
+                        <img src="images/Image 5.webp" alt="Actu plus">
+                        <div class="slide-content">
+                            <p>Un résumé accrocheur pour inciter à la lecture...</p>
+                            <a href="#" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+        <!-- Colonne droite -->
+        <div class="right-column">
+            <div class="flash-header">
+                <h2 class="flash">Flash</h2>
+                <button class="actualites-btn">Actualités<span> </span><i class="fa fa-chevron-down"
+                        aria-hidden="true"></i></button>
+            </div>
+            <span class="flash-icon">resevoir les alerte de la rédaction<span> </span><i class="fa fa-toggle-off"
+                    aria-hidden="true"></i></span>
+            <div class="scrollable-menu">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <button class="actualites-plus">VOIR TOUTE LES FLASHS ACTUALITE</button>
+        </div>
+    </div>
+    <!-- Grille de news (3 colonnes) -->
+    <section class="news-grid-section">
+        <h2 class="section-title">À la une <span class="see-all">Voir tout <i class="fas fa-chevron-right"></i></span>
+        </h2>
+        <div class="news-grid">
+            <!-- Article 1 -->
+            <article class="news-card">
+                <img src="images/Image 7.jpg" alt="Économie">
+                <div class="card-content">
+                    <span class="tag">Économie</span>
+                    <h3>Le marché européen en hausse malgré les tensions</h3>
+                    <p class="excerpt">Analyse des dernières tendances économiques...</p>
+                    <div class="meta">
+                        <span><i class="far fa-clock"></i> Il y a 2h</span>
+                        <span><i class="far fa-comment"></i> 24 commentaires</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="news-card">
+                <img src="images/Image 10.jpg" alt="Journalisme">
+                <div class="card-content">
+                    <span class="tag">Journalisme</span>
+                    <h3>Le marché européen en hausse malgré les tensions</h3>
+                    <p class="excerpt">Analyse des dernières tendances économiques...</p>
+                    <div class="meta">
+                        <span><i class="far fa-clock"></i> Il y a 2h</span>
+                        <span><i class="far fa-comment"></i> 24 commentaires</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="news-card">
+                <img src="images/Image 4.webp" alt="Architecture">
+                <div class="card-content">
+                    <span class="tag">Architecture</span>
+                    <h3>Le marché européen en hausse malgré les tensions</h3>
+                    <p class="excerpt">Analyse des dernières tendances économiques...</p>
+                    <div class="meta">
+                        <span><i class="far fa-clock"></i> Il y a 2h</span>
+                        <span><i class="far fa-comment"></i> 24 commentaires</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Section Vidéo -->
+    <section class="video-section">
+        <h2 class="section-title">Vidéos <span class="see-all">Toutes les vidéos <i
+                    class="fas fa-chevron-right"></i></span></h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <img src="images/Image 2.webp" alt="Vidéo 1">
+                <div class="play-button"><i class="fas fa-play"></i></div>
+                <h3>Interview exclusive avec le ministre de l'Économie</h3>
+            </div>
+            <div class="video-card">
+                <img src="images/Image 5.webp" alt="Vidéo 2">
+                <div class="play-button"><i class="fas fa-play"></i></div>
+                <h3>Reportage : La disparution du Pape François</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Footer étendu -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Colonne 1 (secondaire) -->
+            <div class="footer-column footer-about">
+                <h2>Nos liens utiles</h2>
+                <ul class="footer-links">
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Le parzialePPM
+                            en images</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Suivre Le
+                            parzialePPM sur Google Actu</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Le parzialePMM
+                            Lyon</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Le
+                            parzialePMMFigaro Nantes</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Les vidéos
+                            parzialePPM Live</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Les programmes
+                            TV</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Carnet du
+                            jour</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Jeux</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Nos applications
+                            modiles</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Le parzialePMM
+                            Bordeaux</a></li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i><span> </span><a href="#">Le parzialePMM
+                            Marseille</a></li>
+            </div>
+
+            <!-- Colonne 2 (principale avec sous-colonnes) -->
+            <div class="footer-column footer-main">
+                <div class="footer-main-container">
+                    <!-- Sous-colonne gauche -->
+                    <div class="footer-subcolumn">
+                        <h2>Le Kiosque</h2>
+                        <img src="images/Image 3.jpg" alt="Logo" class="footer-journal">
+                        <p>Le ParzialePPM</p>
+                        <button class="footer-button">LIRE CE NUMERO</button>
+                    </div>
+
+                    <!-- Sous-colonne droite -->
+                    <div class="footer-subcolumn">
+                        <h2>Abonnement</h2>
+                        <ul class="footer-links">
+                            <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><span> </span><a
+                                    href="#">Découvrez toutes les offres</a><br />
+                                <p>Les articles en illimité à partir de 0.99€ sans engagement</p>
+                            </li>
+                            <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><span> </span><a href="#">Gérer
+                                    votre abonnement</a></li>
+                            <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><span> </span><a href="#">Mon
+                                    compte</a></li>
+                            <li><i class="fa fa-long-arrow-right" aria-hidden="true"></i><span> </span><a
+                                    href="#">Résilier votre abonnement</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonne 3 (secondaire) -->
+            <div class="footer-column footer-social">
+                <h2>Applications mobiles</h2>
+                <div class="App-mobile">
+                    <ul class="footer-links">
+                        <li><a href="#">Le ParzielePMM: iPhone|Android</a><br /></li>
+                        <li><a href="#">Le Parziale Jeux:iPhone|Android</a></li>
+                        <li><a href="#">Le Kiosque Le Parziale:iPhone|Android</a></li>
+                        <li><a href="#">Le ParzialePPM Cuisine:iPhone|Android</a></li>
+                    </ul>
+                </div>
+                <div class="newsletters">
+                    <p>
+                    <h3>Nos newsletters</h3>
+                    Inscrivez-vous aux newsletters</p>
+                </div>
+                <div class="social-icons">
+                    <h3>Suivez-nous sur</h3>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Parziale-PPM – Tous droits réservés</p>
+            <div class="legal-links">
+                <a href="#">Paramétrer les cookies</a>
+                <span class="separator">|</span>
+                <a href="#">Plan du site</a>
+                <span class="separator">|</span>
+                <a href="#">Confidentialité</a>
+                <span class="separator">|</span>
+                <a href="#">CGU</a>
+                <span class="separator">|</span>
+                <a href="#">CGV</a>
+                <span class="separator">|</span>
+                <a href="#">Info cookies</a>
+                <span class="separator">|</span>
+                <a href="#">Charte</a>
+                <span class="separator">|</span>
+                <a href="#">Aide et contact</a>
+                <span class="separator">|</span>
+                <a href="#">Mentions légales</a>
+                <span class="separator">|</span>
+                <a href="#">Groupe ParzialePPM</a>
+                <span class="separator">|</span>
+                <a href="#">Abonnaments</a>
+                <span class="separator">|</span>
+                <a href="#">Newslwtter</a>
+                <span class="separator">|</span>
+                <a href="#">Publicité</a>
+                <span class="separator">|</span>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
